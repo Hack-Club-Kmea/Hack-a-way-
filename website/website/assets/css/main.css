@@ -12,7 +12,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ff2fff; /* color of the scroll thumb */
+  background-color: #0099ff; /* color of the scroll thumb */
   border-radius: 15px; /* roundness of the scroll thumb */
 }
 
@@ -40,7 +40,9 @@ h4,
 h5 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
 }
 
 a {
@@ -70,6 +72,7 @@ ol {
   list-style: outside none none;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 ul li,
@@ -115,7 +118,7 @@ ol li {
 }
 
 .section-title-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -146,7 +149,7 @@ ol li {
 
 .section-subcontent {
   font-size: 16px;
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -240,6 +243,7 @@ ol li {
   background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
   box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
   position: relative;
+ 
 }
 
 .btn-common:hover {
@@ -562,7 +566,7 @@ a.back-to-top:focus {
 
 #page-banner-area {
   background: url(../img/background/banner.jpg) no-repeat;
-  background-position: 50% 50%;
+  
   background-size: cover;
 }
 
@@ -810,7 +814,8 @@ a.back-to-top:focus {
   border-bottom: 1px solid #f1f1f1;
   text-decoration: none;
   display: inline-block;
-  float: left;
+  align-items: center;
+  /*float: left;*/
   clear: both;
   position: relative;
   outline: 0;
@@ -1087,6 +1092,7 @@ h1 {
   z-index: 999;
   color: #fff;
 }
+
 
 .counter-section .counter .icon i {
   color: #fff !important;
@@ -2671,6 +2677,7 @@ section#count {
   font-size: 40px;
   margin-bottom: 50px;
   color: #000 !important;
+  
 }
 /* Dark Theme */
 section#about {
@@ -2784,4 +2791,8 @@ li.stylish-list {
 }
 .prize-desc {
   display: none;
+}
+
+.container{
+  color: #000;
 }
