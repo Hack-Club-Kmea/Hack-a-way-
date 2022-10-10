@@ -630,10 +630,14 @@ a.back-to-top:focus {
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 60px;
+  
 }
 
+
+
 .navbar-brand img {
-  width: 75%;
+  width: 75%; 
 }
 
 .top-nav-collapse {
